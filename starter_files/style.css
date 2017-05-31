@@ -1,0 +1,159 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url("img/bg.jpg");
+  background-repeat: repeat;
+  border-style: solid;
+  border-color: #ffd24a;
+  border-width: medium;
+  margin: 10px 100px;
+  font-size: 120%;
+}
+
+header{
+  display: block;
+  background: #ff8523;
+  padding: 20px;
+}
+
+#logo img{
+  padding-bottom: 20px;
+  height: 55px;
+}
+
+.main_navigation{
+  padding-bottom: 20px;
+}
+
+#page_content{
+  background: white;
+  padding: 20px;
+}
+
+h2, h3{
+  color: #1fabe5;
+}
+
+section a{
+  color: #1fabe5;
+}
+
+nav a:link{
+  text-decoration: none;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  border-radius: 5px 5px;
+  padding: 10px 30px;
+}
+
+nav a:hover{
+  color: blue;
+}
+
+ul{
+  font-weight: bold;
+}
+
+#page_content section{
+  border-bottom: 5px solid;
+  border-bottom-color: #dddddd;
+  padding-bottom: 40px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td{
+  border: 1px solid;
+}
+
+td{
+  padding: 10px;
+  border-color:#1fabe5;
+}
+
+thead td{
+  border-color: gray;
+  background-color: #1fabe5;
+  color: white;
+}
+
+tbody img{
+  height: 55px;
+  width: 55px;
+}
+
+form{
+  background-color:#dddddd;
+  border-radius: 5px 5px;
+  padding: 20px;
+}
+
+div .name{
+  background-color:#ff8523;
+  border-radius: 5px 5px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div .name label{
+  margin-right: -100px;
+}
+
+#first_name, #last_name{
+  height: 40px;
+  width: 250px;
+}
+
+
+
+div .city_container{
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+form div{
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+textarea{
+  height: 160px;
+  width:100%;
+  border-color:#1fabe5;
+  margin-top: 10px;
+}
+
+.submit_container input{
+  background-color:#1fabe5;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding:15px;
+  border-radius: 5px 5px;
+  border-style: solid;
+  border-color: #1fabe5;
+  font-size: 1em;
+}
